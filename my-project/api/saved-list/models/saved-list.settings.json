@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_lists",
+  "info": {
+    "name": "savedList"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iduser": {
+      "type": "integer"
+    },
+    "idbookchapter": {
+      "type": "integer"
+    },
+    "idbookinfo": {
+      "type": "integer"
+    }
+  }
+}

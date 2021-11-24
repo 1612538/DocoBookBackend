@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategories",
+  "info": {
+    "name": "subcategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "idcategory": {
+      "type": "integer"
+    }
+  }
+}

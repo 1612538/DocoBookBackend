@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favor_lists",
+  "info": {
+    "name": "favorList"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idbookinfo": {
+      "type": "integer"
+    },
+    "iduser": {
+      "type": "integer"
+    }
+  }
+}

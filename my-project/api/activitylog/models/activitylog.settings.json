@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activitylogs",
+  "info": {
+    "name": "activitylog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activity": {
+      "type": "text"
+    }
+  }
+}

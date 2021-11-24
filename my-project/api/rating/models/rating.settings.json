@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ratings",
+  "info": {
+    "name": "rating"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idbookinfo": {
+      "type": "integer"
+    },
+    "iduser": {
+      "type": "integer"
+    },
+    "rate": {
+      "type": "float"
+    }
+  }
+}

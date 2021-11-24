@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/activitylogs",
+      "handler": "activitylog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/activitylogs/count",
+      "handler": "activitylog.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/activitylogs/:id",
+      "handler": "activitylog.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/activitylogs",
+      "handler": "activitylog.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/activitylogs/:id",
+      "handler": "activitylog.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/activitylogs/:id",
+      "handler": "activitylog.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

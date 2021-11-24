@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategory_book_infos",
+  "info": {
+    "name": "Subcategory_BookInfo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idsubcategory": {
+      "type": "integer"
+    },
+    "idbookinfo": {
+      "type": "integer"
+    }
+  }
+}

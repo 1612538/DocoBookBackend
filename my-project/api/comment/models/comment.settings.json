@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "comment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idbookinfo": {
+      "type": "integer"
+    },
+    "idbookchapter": {
+      "type": "integer"
+    },
+    "iduser": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "text"
+    },
+    "emoji": {
+      "type": "integer"
+    }
+  }
+}

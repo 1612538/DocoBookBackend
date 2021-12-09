@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "subcategories",
   "info": {
-    "name": "subcategory"
+    "name": "subcategory",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,9 +16,6 @@
       "type": "string"
     },
     "count": {
-      "type": "integer"
-    },
-    "idcategory": {
       "type": "integer"
     }
   }

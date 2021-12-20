@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "ratings",
   "info": {
-    "name": "rating"
+    "name": "rating",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,14 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "idbookinfo": {
-      "type": "integer"
-    },
-    "iduser": {
-      "type": "integer"
-    },
     "rate": {
       "type": "float"
+    },
+    "bookinfo": {
+      "model": "bookinfo"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

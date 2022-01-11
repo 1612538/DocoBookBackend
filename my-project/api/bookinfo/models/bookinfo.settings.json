@@ -44,10 +44,14 @@
       "collection": "subcategory"
     },
     "rate": {
-      "type": "integer",
+      "type": "decimal",
       "default": 0
     },
     "likes": {
+      "type": "integer",
+      "default": 0
+    },
+    "ratevote": {
       "type": "integer",
       "default": 0
     }
